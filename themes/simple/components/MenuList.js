@@ -57,7 +57,7 @@ export const MenuList = ({ customNav, customMenu }) => {
         <div id='nav-menu-mobile' className='flex md:hidden my-auto justify-start'>
             <div onClick={toggleIsOpen} className='cursor-pointer hover:text-red-400 transition-all duration-200'>
                 <i className={`${isOpen && 'rotate-90'} transition-all duration-200 fa fa-bars mr-3`} />
-                <span>{!isOpen ? 'MENU' : 'CLOSE'}</span>
+                <span>{!isOpen ? '菜单' : '关闭'}</span>
             </div>
 
             <Collapse collapseRef={collapseRef} className='absolute w-full top-12 left-0' isOpen={isOpen}>
