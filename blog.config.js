@@ -25,7 +25,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '领凡', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '领凡楼梯配件加工厂', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.leadman.com', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.leadman.shop', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '领凡,楼梯,领凡楼梯,楼梯定制,楼梯厂,楼梯安装,别墅楼梯,楼梯设计', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
